@@ -1,7 +1,8 @@
 import os
 import pickle
 import time
-from langchain import OpenAI
+import langchain.llms.OpenAI
+# from langchain import OpenAI
 from langchain.chains import RetrievalQAWithSourcesChain
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.document_loaders import UnstructuredURLLoader
