@@ -2,11 +2,8 @@ import streamlit as st
 import pickle
 from langchain.chains import RetrievalQAWithSourcesChain
 import os
-# from langchain import OpenAI
-from langchain.llms import OpenAI
-import openai.api_resources
-# from langchain_community.llms import OpenAI
-# from helper import get_qa
+from langchain.llms import openai
+# import openai.api_resources
 from dotenv import load_dotenv
 load_dotenv()
 
