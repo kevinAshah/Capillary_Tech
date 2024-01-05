@@ -1,8 +1,12 @@
 import streamlit as st
 import pickle
-from langchain.chains import RetrievalQAWithSourcesChain
 import os
-from langchain.llms import OpenAI
+import pickle
+from langchain.chains import RetrievalQAWithSourcesChain
+from langchain_community.embeddings import OpenAIEmbeddings
+from langchain_community.vectorstores import FAISS
+from langchain.prompts import PromptTemplate
+from langchain_community.llms import OpenAI
 
 from dotenv import load_dotenv
 load_dotenv()
