@@ -3,7 +3,7 @@ import pickle
 from langchain.chains import RetrievalQAWithSourcesChain
 import os
 from langchain.llms import openai
-from openai import openai.api_resources
+
 from dotenv import load_dotenv
 load_dotenv()
 
