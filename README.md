@@ -58,3 +58,11 @@ You can ask the following questions to the LLM:
 5. Capillary Data Platform - What is Connect+?
 6. Admin Controls - What is Single Sign-On(SSO)?
 7. Smart Store+ - Tell me something about visitorsense
+
+The answers from LLM to the above questions: <br> <br>
+<img src="Loyalty+.png" alt="" width="600" height="300"> <br> <br>
+<img src="Engage+.png" alt="" width="600" height="300">  <br> <br>
+<img src="Insights+.png" alt="" width="600" height="300"> <br> <br>
+<img src="Capilary_Data_Platform.png" alt="" width="600" height="300">  <br> <br>
+<img src="Admin_Controls.png" alt="" width="600" height="300"> <br> <br>
+<img src="SmartStore+.png" alt="" width="600" height="300"> <br> <br>
