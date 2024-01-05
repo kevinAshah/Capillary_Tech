@@ -10,7 +10,9 @@ This is an interactive platform where you can ask any question about the user do
 ## Features
 * Load URLs of each service documentation in separate lists to fetch article content.
 * Process article content through LangChain's UnstructuredURL Loader.
-* Construct an embedding vector using OpenAI's embeddings and leverage FAISS, a powerful similarity search library, to enable swift and effective retrieval of relevant information.
+* Text splitting using RecursiveCharacterTextSplitter of Langchain
+* Construct an embedding vector using OpenAI's embeddings and leverage FAISS (Facebook AI Similarity Search), a powerful similarity search library, to enable swift and effective retrieval of relevant information.
+* Used RetrievalQA for retrieving the answers from the respective vector stores
 * Interact with the LLM by inputting queries and receiving answers for the respective subtpic.
 
 ## Project Structure
